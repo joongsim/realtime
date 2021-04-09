@@ -1,7 +1,5 @@
-import numpy as np
 import pandas as pd
 import sys
-import time
 
 from datetime import datetime
 from dateutil import parser
@@ -86,10 +84,6 @@ if __name__ == '__main__':
     speed = int(sys.argv[2])
     refresh = int(sys.argv[3])
     
-
-    ''' path = 'data/test'
-    speed = 5
-    refresh = 3.000'''
 
     df = load_data(path)    
     input('Data loaded. Press any key to continue.\n')
